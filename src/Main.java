@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        Person person1 = new Person(1988, "Максим", "Минкс", "бренд-менеджером");
+        Person person1 = new Person(1988, "Максим", "Минкс", null);
         person1.live();
-        Person person2 = new Person(1993, "Аня", "Москва" , "методистом образовательных программ");
+        Person person2 = new Person(1993, "Аня", null , "методистом образовательных программ");
         person2.live();
         Person person3 = new Person(1992, "Катя", "Калиниград","продакт-менеджером" );
         person3.live();
